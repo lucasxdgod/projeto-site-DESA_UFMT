@@ -1,0 +1,77 @@
+.interna_laboratorios {
+  background: url("../img/bg-laboratorio.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.laboratorio_item {
+  margin-bottom: 10px;
+  padding-top: 60px;
+}
+
+.laboratorio_item .grid-11 {
+  height: 280px;
+  background: #d6efc7;
+  margin-bottom: 16px;
+}
+
+.laboratorio_item h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1;
+  font-weight: bold;
+  position: relative;
+  top: 120px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.laboratorio_item h2::after,
+.laboratorio_item h2::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #000;
+  margin: 6px auto 10px auto;
+}
+
+.laboratorio_icone {
+  padding: 0 auto;
+  height: 280px;
+}
+
+.laboratorio_info {
+  background: #d6efc7;
+  margin-bottom: 20px;
+}
+
+.laboratorio_info p {
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  height: 160px;
+  padding: 20px 20px;
+}
+
+.laboratorio_info ul li {
+  color: #fff;
+  background: #3c944c;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  float: left;
+  width: 229px;
+  height: 58px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.laboratorio_info ul li:nth-child(1),
+.laboratorio_info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+.laboratorio_info ul li:nth-child(even) {
+  margin-left: 2px;
+}

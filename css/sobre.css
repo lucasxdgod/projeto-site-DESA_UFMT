@@ -1,0 +1,58 @@
+.interna_sobre {
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+.subtitulo {
+  margin-top: 20px;
+}
+
+.titulo_ensino {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+
+  display: inline-block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3d768a;
+}
+
+.disciplina_lista h3 {
+  background-color: #3c944c;
+  color: #fff;
+  width: 460px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.disciplina_lista h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px auto;
+}
+
+.info_disciplina {
+  background-color: #d6efc7;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.disciplina_lista p {
+  font-size: 14px;
+  margin: 8px auto;
+  padding: 8px;
+}
